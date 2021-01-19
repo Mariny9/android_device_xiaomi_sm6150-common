@@ -166,20 +166,6 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 -vendor/lib64/libsdedrm.so|582910d21139781ad9e414c35207584f51e035e2
 
 # DPM
-framework/tcmclient.jar
--system_ext/bin/dpmd
-system_ext/etc/dpm/dpm.conf
-system_ext/etc/init/dpmd.rc
-system_ext/etc/permissions/com.qti.dpmframework.xml
-system_ext/etc/permissions/dpmapi.xml
-system_ext/framework/com.qti.dpmframework.jar
-system_ext/framework/dpmapi.jar
--system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE=com.qualcomm.qti.dpm.api@1.0_system_ext
--system_ext/lib64/libdpmctmgr.so
--system_ext/lib64/libdpmfdmgr.so
--system_ext/lib64/libdpmframework.so
--system_ext/lib64/libdpmtcm.so
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 -vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 -vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE=com.qualcomm.qti.dpm.api@1.0_vendor
@@ -305,16 +291,6 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a585
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
 
 # IMS
--system_ext/lib64/libdiag_system.so
--system_ext/lib64/libimscamera_jni.so
--system_ext/lib64/libimsmedia_jni.so
--system_ext/lib64/lib-imsvideocodec.so
--system_ext/lib64/lib-imsvt.so
--system_ext/lib64/lib-imsvtextutils.so
--system_ext/lib64/lib-imsvtutils.so
--system_ext/lib64/vendor.qti.diaghal@1.0.so
--system_ext/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE=vendor.qti.imsrtpservice@3.0_system_ext
--system_ext/priv-app/ims/ims.apk
 -vendor/bin/imsdatadaemon
 -vendor/bin/imsqmidaemon
 -vendor/bin/imsrcsd
@@ -428,7 +404,6 @@ vendor/etc/seccomp_policy/codec2.vendor.ext.policy
 -vendor/lib64/libperipheral_client.so
 
 # QMI
-system_ext/etc/permissions/qti_permissions.xml
 -vendor/bin/irsc_util
 -vendor/bin/pd-mapper
 -vendor/bin/qrtr-ns
@@ -462,14 +437,6 @@ system_ext/etc/permissions/qti_permissions.xml
 -vendor/lib/libqmi.so
 
 # RIL
--system_ext/app/QtiTelephony/QtiTelephony.apk
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
-system_ext/etc/permissions/qcrilhook.xml
-system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
-system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
-system_ext/framework/qcrilhook.jar
-system_ext/framework/qti-telephony-common.jar
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/bin/adpl
 -vendor/bin/hw/qcrild
 -vendor/bin/netmgrd
