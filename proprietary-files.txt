@@ -57,8 +57,10 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio FX modules
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libshoebox.so
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+-vendor/lib/soundfx/libasphere.so
+-vendor/lib/soundfx/libshoebox.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -371,6 +373,8 @@ vendor/lib/libOmxApeDecSw.so
 vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libOmxSwVdec.so
+vendor/lib/libOmxSwVencMpeg4.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libqcodec2.so
